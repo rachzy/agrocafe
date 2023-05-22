@@ -3,7 +3,7 @@
 }
 
 .marrom.background {
-  background-color: #67462e;
+  background-color: #67462e !important;
 }
 
 .verde.label {
@@ -11,7 +11,7 @@
 }
 
 .verde.background {
-  background-color: #698434;
+  background-color: #698434 !important;
 }
 
 .cinza.label {
@@ -19,5 +19,5 @@
 }
 
 .cinza.background {
-  background-color: #e5e6e7;
+  background-color: #e5e6e7 !important;
 }
