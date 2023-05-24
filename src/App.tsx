@@ -6,6 +6,8 @@ import Slide2 from "./assets/imagens/sliders/slider2.jpg";
 import Slide3 from "./assets/imagens/sliders/slider3.jpg";
 import Slide4 from "./assets/imagens/sliders/slider4.jpg";
 import Footer from "./components/Footer";
+import Contact from "./sections/Contact/index.js";
+import FAQ from "./sections/FAQ/index.js";
 
 const App = () => {
   const slides = [Slide1, Slide2, Slide3, Slide4];
@@ -13,6 +15,9 @@ const App = () => {
     <main>
       <Header />
       <Slider images={slides} floatingDots />
+      
+      <FAQ />
+      <Contact />
       <Footer />
     </main>
   );

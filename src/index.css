@@ -6,6 +6,7 @@
   padding: 0;
 
   font-family: "Dincon Regular", sans-serif;
+  color: white;
 }
 
 body,
@@ -21,4 +22,14 @@ a {
 
 ul {
   list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  width: 80vw;
+
+  margin-block: 5vh;
 }
