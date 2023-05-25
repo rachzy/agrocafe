@@ -5,6 +5,7 @@ import "./Header-Mobile.css";
 
 import Hamburguer from "../Hamburguer";
 
+import Gota from "../../assets/imagens/demais-imagens/gota.png";
 import Logo from "../../assets/imagens/logos/logo-agrocafe-cabeçalho.png";
 import Netafim from "../../assets/imagens/logos/logo-netafim-cabeçalho.png";
 
@@ -27,7 +28,7 @@ const DefaultSection: React.FC<IPropsSections> = ({ options }) => {
     return options.map((link, index) => {
       return (
         <>
-          {index > 0 && <span className="gota verde background"></span>}
+          {index > 0 && <img src={Gota} alt="gota verde" />}
           <li key={link.label}>
             <a className="menu-option" href={link.href}>
               {link.label}

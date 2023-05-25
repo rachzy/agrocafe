@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 
-  font-family: "Dincon Regular", sans-serif;
+  font-family: "Calibri", sans-serif;
   color: white;
 }
 
@@ -23,7 +23,6 @@ a {
 p {
   font-size: 3.5vh;
   font-weight: 100;
-  font-family: "Dincon Regular";
 }
 
 ul {
@@ -57,6 +56,4 @@ section {
 
   margin: auto;
   width: 80vw;
-
-  margin-block: 5vh;
 }

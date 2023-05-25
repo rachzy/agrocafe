@@ -6,7 +6,7 @@ div.slider {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
+  width: 100vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,7 +20,7 @@ div.slider {
 div.slides {
   display: flex;
 
-  width: 100%;
+  width: 100vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -46,7 +46,7 @@ div.slider img.main-title {
 /* SLIDE */
 
 div.slide {
-  width: 100%;
+  width: 100vw;
 
   opacity: 0%;
 
@@ -82,7 +82,7 @@ div.slide img {
 div.slider div.buttons {
   display: flex;
 
-  width: 90%;
+  width: 85vw;
   justify-content: space-between;
 
   position: absolute;

@@ -1,0 +1,134 @@
+section.desc-section {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 120vh;
+
+  padding-top: 15vh;
+}
+
+/* MAIN-CONTENT-WRAPPER */
+
+section.desc-section div.main-content-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  min-height: fit-content;
+
+  justify-content: center;
+  height: 70%;
+}
+
+/* CONTENT-WRAPPER */
+
+section.desc-section div.content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+section.desc-section div.content-wrapper.justify {
+  width: 50%;
+  justify-content: space-between;
+  padding-left: 4vh;
+}
+
+section.desc-section div.content-wrapper img {
+  margin-top: 5vh;
+  width: fit-content;
+  height: 100%;
+}
+
+section.desc-section div.content-wrapper h1 {
+  color: white;
+  font-family: "Dincon Bold", sans-serif;
+  font-size: 7vh;
+}
+
+section.desc-section div.content-wrapper p {
+  color: white;
+  font-size: 4vh;
+}
+
+@media screen and (max-width: 768px) {
+  section.desc-section {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  section.desc-section div.main-content-wrapper {
+    flex-direction: column;
+  }
+
+  section.desc-section div.content-wrapper {
+    width: 100%;
+    height: fit-content;
+  }
+
+  section.desc-section div.content-wrapper.justify {
+    justify-content: center;
+    width: 90%;
+    padding-left: 0;
+    margin: auto;
+    margin-block: 4vh;
+  }
+
+  section.desc-section div.content-wrapper img {
+    display: none;
+  }
+
+  section.desc-section div.content-wrapper h1 {
+    text-align: center;
+  }
+
+  section.desc-section div.content-wrapper p {
+    font-size: 3.5vh;
+    text-align: center;
+    margin-block: 3vh;
+  }
+}
+
+/* CULTURAS-WRAPPER */
+
+div.culturas-wrapper {
+  width: 80%;
+  margin: auto;
+
+  border-radius: 4vh;
+
+  margin-block: 5vh;
+}
+
+div.culturas-wrapper p {
+  font-weight: bold;
+  font-size: 3.5vh;
+  margin: 4vh;
+}
+
+div.culturas-wrapper div.culturas-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-items: center;
+
+  margin: auto;
+  margin-block: 8vh 14vh;
+  column-gap: 2vh;
+  row-gap: 5vh;
+
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  div.culturas-wrapper {
+    width: 100%;
+  }
+  div.culturas-wrapper p {
+    text-align: center;
+  }
+}
