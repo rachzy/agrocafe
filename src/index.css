@@ -50,3 +50,13 @@ section div.content.center {
 section div.content.space-between {
   justify-content: space-between;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  width: 80vw;
+
+  margin-block: 5vh;
+}

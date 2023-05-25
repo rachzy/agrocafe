@@ -1,12 +1,14 @@
 import Header from "./components/Header";
 import Slider from "./components/Slider";
+import Contact from "./sections/Contact";
+import FAQ from "./sections/FAQ";
+import TextSection from "./components/TextSection/";
+import Title from "./components/Title";
 
 import Slide1 from "./assets/imagens/sliders/slider1.jpg";
 import Slide2 from "./assets/imagens/sliders/slider2.jpg";
 import Slide3 from "./assets/imagens/sliders/slider3.jpg";
 import Slide4 from "./assets/imagens/sliders/slider4.jpg";
-import TextSection from "./components/TextSection";
-import Title from "./components/Title";
 
 import Gotinhas from "./assets/imagens/demais-imagens/gotinhas.png";
 
@@ -47,6 +49,8 @@ const App = () => {
           </p>
         </div>
       </TextSection>
+      <FAQ />
+      <Contact />
     </main>
   );
 };
