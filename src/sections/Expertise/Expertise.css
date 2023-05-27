@@ -20,7 +20,7 @@ section.expertise-section div.expertise-passos-wrapper.mobile {
 
 @media screen and (max-width: 768px) {
   section.expertise-section {
-    width: 100%;
+    width: 90%;
   }
   section.expertise-section div.expertise-passos-wrapper {
     flex-direction: column;

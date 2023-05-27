@@ -21,3 +21,9 @@ div.passo-box h1 {
   text-align: start;
   font-size: 5vh;
 }
+
+@media screen and (max-width: 768px) {
+  div.passo-box {
+    margin-inline: 0;
+  }
+}
