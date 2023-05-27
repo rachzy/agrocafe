@@ -3,9 +3,6 @@ section.desc-section {
   flex-direction: column;
 
   width: 100vw;
-  height: 120vh;
-
-  padding-top: 15vh;
 }
 
 /* MAIN-CONTENT-WRAPPER */
@@ -14,10 +11,11 @@ section.desc-section div.main-content-wrapper {
   display: flex;
   flex-direction: row;
 
-  min-height: fit-content;
+  padding-block: 15vh 35vh;
 
   justify-content: center;
-  height: 70%;
+
+  height: 80vh;
 }
 
 /* CONTENT-WRAPPER */
@@ -27,8 +25,7 @@ section.desc-section div.content-wrapper {
   flex-direction: column;
 
   width: 40%;
-  height: 100%;
-  overflow: hidden;
+  min-height: 100%;
 }
 
 section.desc-section div.content-wrapper.justify {
@@ -51,22 +48,25 @@ section.desc-section div.content-wrapper h1 {
 
 section.desc-section div.content-wrapper p {
   color: white;
-  font-size: 4vh;
+  font-size: 3.5vmin;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   section.desc-section {
     flex-direction: column;
-    height: fit-content;
   }
 
   section.desc-section div.main-content-wrapper {
     flex-direction: column;
+    height: fit-content;
+    padding-block: 15vh 10vh;
   }
 
   section.desc-section div.content-wrapper {
-    width: 100%;
+    width: 90%;
     height: fit-content;
+
+    margin: auto;
   }
 
   section.desc-section div.content-wrapper.justify {
@@ -101,6 +101,10 @@ div.culturas-wrapper {
   border-radius: 4vh;
 
   margin-block: 5vh;
+  margin-top: -25vh;
+
+  box-shadow: 0vh 5vh 10vh 1vh rgba(0, 0, 0, 0.459);
+  overflow: hidden;
 }
 
 div.culturas-wrapper p {
@@ -121,13 +125,29 @@ div.culturas-wrapper div.culturas-container {
   column-gap: 2vh;
   row-gap: 5vh;
 
+  padding: 2vh 4vh;
+
   width: 90%;
+
+  overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   div.culturas-wrapper {
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
   }
+
+  div.culturas-wrapper div.culturas-container {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    justify-content: flex-start;
+
+    margin-block: 3vh;
+  }
+
   div.culturas-wrapper p {
     text-align: center;
   }

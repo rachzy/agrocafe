@@ -65,8 +65,8 @@ const Descricao = () => {
     });
   }
   return (
-    <section className="desc-section verde background">
-      <div className="main-content-wrapper">
+    <section className="desc-section">
+      <div className="main-content-wrapper verde background">
         <div className="content-wrapper">
           <h1>
             Somos a AgroCafé, uma empresa que atua no agronegócio com mais de 15

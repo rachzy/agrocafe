@@ -11,6 +11,7 @@ div.cultura-box {
 
 div.cultura-box img {
   width: 14vh;
+  margin-block: 1vh;
 }
 
 div.cultura-box p {

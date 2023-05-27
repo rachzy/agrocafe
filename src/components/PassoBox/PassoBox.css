@@ -1,0 +1,23 @@
+div.passo-box {
+  display: flex;
+  flex-direction: column;
+
+  padding: 4vh;
+  padding-bottom: 10vh;
+
+  margin-inline: 4vh;
+  border-radius: 4vh;
+
+  flex: 1;
+}
+
+div.passo-box img {
+  margin-top: -10vh;
+  align-self: center;
+  width: 15vh;
+}
+
+div.passo-box h1 {
+  text-align: start;
+  font-size: 5vh;
+}
