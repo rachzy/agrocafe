@@ -5,6 +5,7 @@ import Slider from "./components/Slider";
 import Descricao from "./sections/Descricao";
 import FAQ from "./sections/FAQ";
 import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 
 import Slide1 from "./assets/imagens/sliders/slider1.jpg";
 import Slide2 from "./assets/imagens/sliders/slider2.jpg";
@@ -32,6 +33,7 @@ const App = () => {
       <FAQ />
       <ScrollBanner banner={Banner2} slogan={Slogan2} />
       <Contact />
+      <Footer />
     </main>
   );
 };
