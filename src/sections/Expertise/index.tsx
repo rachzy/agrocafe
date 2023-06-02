@@ -69,7 +69,7 @@ const Expertise = () => {
   }
 
   return (
-    <section className="expertise-section">
+    <section className="expertise-section" id="expertise">
       <img
         className="expertise-banner"
         src={LetreiroExpertise}

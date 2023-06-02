@@ -21,44 +21,44 @@ const FAQ = () => {
       precisam para o crescimento e o desenvolvimento.`,
     },
     {
-        pergunta: "Qual a durabilidade do sistema de irrigação por gotejamento?",
-        resposta: `O sistema de irrigação por gotejamento tem longa 
+      pergunta: "Qual a durabilidade do sistema de irrigação por gotejamento?",
+      resposta: `O sistema de irrigação por gotejamento tem longa 
         durabilidade. No Brasil, temos áreas com gotejadores de mais de 
         20 anos e que ainda tem boa performance. A durabilidade dos tubos 
         gotejadores depende muito da realização das operações de manutenção, 
         preventivas, recomendadas. Da mesma forma que um trator ou outra 
         máquina qualquer, sua durabilidade está vinculada ao seu correto uso 
         e a realização das revisões, conforme recomendação do fabricante.`,
-      },
-      {
-        pergunta: "Se não houver manutenção, os gotejadores entopem ou não?",
-        resposta: `Além da manutenção, utilizar produtos de qualidade também é essencial. 
+    },
+    {
+      pergunta: "Se não houver manutenção, os gotejadores entopem ou não?",
+      resposta: `Além da manutenção, utilizar produtos de qualidade também é essencial. 
         E, por falar em produtos de qualidade, somos representantes Netafim e atendemos 
         Patrocínio e região. Disponibilizamos uma equipe especializada para assumir toda 
         a operação e a manutenção preventiva do seu sistema. Nós cuidamos da sua irrigação, 
         para que você tenha tranquilidade para focar no seu negócio, que é produzir mais com 
         menos!`,
-      },
-      {
-        pergunta: "É possível fazer quimigação com a irrigação por gotejamento?",
-        resposta: `Sim, é possível fazer a aplicação de defensivos agrícolas, produtos biológicos 
+    },
+    {
+      pergunta: "É possível fazer quimigação com a irrigação por gotejamento?",
+      resposta: `Sim, é possível fazer a aplicação de defensivos agrícolas, produtos biológicos 
         ou orgânicos através da tecnologia chamada de “Drip Protection”. No entanto, é necessário 
         que o produto seja registrado em órgãos que regularizam sua utilização para a cultura e a 
         sua utilização via sistema, ser solúvel em água e não conter partículas sólidas em suspensão. 
         A ”Drip Protection” ou quimigação garante melhor uniformidade, redução de custos, segurança 
         de aplicação e agilidade.`,
-      },
-      {
-        pergunta: "Posso irrigar em áreas com declitividade?",
-        resposta: `Sim, o sistema pode ser utilizado tanto em áreas planas quanto naquelas que têm 
+    },
+    {
+      pergunta: "Posso irrigar em áreas com declitividade?",
+      resposta: `Sim, o sistema pode ser utilizado tanto em áreas planas quanto naquelas que têm 
         declividade, obtendo o mesmo nível de eficiência! Para realização do projeto executivo, é 
         necessário que a nossa equipe faça um levantamento planialtimétrico que orienta o projetista 
         no correto dimensionamento hidráulico. Vale ressaltar que, mesmo em terrenos com declividade,
         a distribuição da água será uniforme em toda a área irrigada..`,
-      },
-      {
-        pergunta: "Posso irrigar utilizando diferentes fontes de água?",
-        resposta: `Um sistema de irrigação por gotejamento, diferente de outros métodos, é dimensionado 
+    },
+    {
+      pergunta: "Posso irrigar utilizando diferentes fontes de água?",
+      resposta: `Um sistema de irrigação por gotejamento, diferente de outros métodos, é dimensionado 
         baseando-se na qualidade da água disponível para irrigação, podendo utilizar diferentes fontes 
         de água (rio, poços e reservatórios). Dessa forma, utilizam-se sistemas de tratamento da água 
         antes que ela passe pelos tubos gotejadores. Sistemas de aeração, reservatório com decantação 
@@ -66,8 +66,7 @@ const FAQ = () => {
         qualidade da água a ser utilizada. Além disso, os gotejadores também possuem um sistema de 
         filtros que evitam os riscos de entupimento. Para complementar, é importante que seja feito um 
         programa de manutenção preventiva, garantindo a limpeza dos tubos gotejadores com frequência.`,
-      },
-         
+    },
   ];
 
   function renderPerguntas() {
@@ -76,7 +75,7 @@ const FAQ = () => {
     });
   }
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
       <Titulo>Perguntas e respostas frequentes</Titulo>
       <div className="perguntas-wrapper">{renderPerguntas()}</div>
     </section>

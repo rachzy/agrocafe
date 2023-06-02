@@ -5,30 +5,40 @@ import FooterCima from "../../assets/imagens/botoes/footer-cima.png";
 import LogoAgrocafeRodape from "../../assets/imagens/logos/logo-agrocafe-rodapé.png";
 import LogoNetafimRodape from "../../assets/imagens/logos/logo-netafim-assinatura.png";
 import FioEntreLogosRodape from "../../assets/imagens/demais-imagens/fio-entre-logos-rodapé.png";
-import ImgPortifolio from "../../assets/imagens/logos/fio-entre-logos-rodapé.png";
+import ImgPortifolio from "../../assets/imagens/logos/portfolio-assinatura.png";
 
 const Footer = () => {
   return (
     <footer className="marrom background">
-      <div className="ContainerConteudoCimaFooter">
+      <div id="containerImg">
         <img
+          id="imgLogo"
           src={LogoOrgulhasamenteIrrigante}
-          alt="LogoOrgulhasamenteIrrigante"
+          alt="logo orgulhosamente irrigado"
         />
-        <img src={FooterCima} alt="Botão para subir" />
+        <img id="btnCima" src={FooterCima} alt="" />
       </div>
-      <div className="ContainerConteudoCentroFooter">
-        <img src={LogoAgrocafeRodape} alt="" />
-        <img src={FioEntreLogosRodape} alt="" />
+
+      <div id="containerConteudo">
+        <img id="logoAgrocafe" src={LogoAgrocafeRodape} alt="" />
+        <img id="fio" src={FioEntreLogosRodape} alt="" />
         <span>
-          Desenvolvido por <a href="#"><img src={ImgPortifolio} alt="Portifolio" /></a>
+          Desenvolvido por{" "}
+          <a href="#">
+            {" "}
+            <img
+              id="portifolioAssinatura"
+              src={ImgPortifolio}
+              alt="Portifolio"
+            />
+          </a>
         </span>
       </div>
-      <div className="verde background ContainerConteudoBaixoFooter">
+      <div id="containerSerafim" className="verde background">
         <img src={LogoNetafimRodape} alt="Assinatura Netafim" />
       </div>
     </footer>
   );
 };
 
-export default Footer
+export default Footer;

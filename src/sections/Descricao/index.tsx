@@ -65,7 +65,7 @@ const Descricao = () => {
     });
   }
   return (
-    <section className="desc-section">
+    <section className="desc-section" id="sobre">
       <div className="main-content-wrapper verde background">
         <div className="content-wrapper">
           <h1>

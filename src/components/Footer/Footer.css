@@ -1,72 +1,118 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 
-footer{
-    width: 100%;
-    padding-top: 2rem;
+  margin-top: 10vh;
 }
-.ContainerConteudoCimaFooter{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+#containerImg {
+  position: absolute;
+  top: -2rem;
+  display: flex;
+  gap: 60vw;
 }
-.ContainerConteudoCimaFooter img{
-    position: absolute;
+#imgLogo {
+  width: 10rem;
 }
-.ContainerConteudoCimaFooter img:nth-child(1){
-    top: -7rem;
-    left: 10vw;
-    width: 10rem;
-}
-.ContainerConteudoCimaFooter img:nth-child(2){
-    right: 15vw;
-    top: -5rem;
-}
-.ContainerConteudoCentroFooter{
-    color: white;
-    margin: 3rem auto;
-    width: 40%;
+#btnCima {
+  width: 4rem;
+  height: 4rem;
 
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+#btnCima:hover {
+  transform: scale(1.05);
+}
+
+#containerConteudo {
+  color: white;
+  margin: 5rem auto 3rem auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#containerConteudo span {
+  display: flex;
+
+  align-items: center;
+}
+
+#containerConteudo span a {
+  margin-left: 2vh;
+}
+
+#logoAgrocafe {
+  width: 15rem;
+}
+#fio {
+  height: 3rem;
+}
+#portifolioAssinatura {
+  width: 5rem;
+}
+
+#containerSerafim {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  border-radius: 10px 10px 0 0;
+  background: black;
+}
+#containerSerafim img {
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  #containerImg {
+    padding-inline: 3rem;
+    top: -1rem;
+  }
+  #imgLogo {
+    width: 5rem;
+  }
+  #btnCima {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #containerConteudo {
     display: flex;
+    flex-direction: column;
+
     gap: 3rem;
     align-items: center;
     justify-content: center;
-}
-.ContainerConteudoCentroFooter img{
-
-    width: 30rem;
-}
-.ContainerConteudoCentroFooter span img{
-    width: 4rem;
-}
-.ContainerConteudoBaixoFooter{
+    width: 100%;
+  }
+  #containerConteudo span {
+    color: white;
+    padding-top: 0.5rem;
+    width: fit-content;
+  }
+  #logoAgrocafe {
     width: 10rem;
-    margin: auto;
-    text-align: center;
-    padding-block: 2rem;
-    padding-inline: 3rem;
-    border-radius: 10px 10px 0 0 ;
-}
-@media screen and (max-width: 768px){
-    
-    .ContainerConteudoCimaFooter img:nth-child(1){
-        top: -5.5rem;
-        left: 10vw;
-        width: 10vh;
-    }
-    .ContainerConteudoCimaFooter img:nth-child(2){
-        right: 15vw;
-        top: -5rem;
-        width: 15vw;
-    }
-    .ContainerConteudoCentroFooter img{
-        width: 20vh;
-    }
-
-    .ContainerConteudoBaixoFooter{
-        width: 7rem;
-        padding: 1rem;
-        
-    }
-    .ContainerConteudoBaixoFooter img{
-        width: 6rem;
-    }
+  }
+  #fio {
+    display: none;
+  }
+  #portifolioAssinatura {
+    width: 4rem;
+  }
+  #containerSerafim {
+    padding-block: 1.5rem 1rem;
+    padding-inline: 1.5rem;
+  }
+  #containerSerafim img {
+    width: 6rem;
+  }
 }

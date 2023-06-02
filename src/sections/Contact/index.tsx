@@ -49,11 +49,13 @@ const Contact = () => {
     });
   }
   return (
-    <section>
-        <div className="contact-fake-button marrom background">
-            <h1>Vamos conversar?</h1>
-        </div>
-      <h2 className="contact-title contact-label marrom label">Escolha como você prefere conversar conosco:</h2>
+    <section id="contato">
+      <div className="contact-fake-button marrom background">
+        <h1>Vamos conversar?</h1>
+      </div>
+      <h2 className="contact-title contact-label marrom label">
+        Escolha como você prefere conversar conosco:
+      </h2>
       <div className="contact-wrapper">{renderContacts()}</div>
       <div className="local-wrapper">
         <img src={PointerIcon} alt="pointer" />
