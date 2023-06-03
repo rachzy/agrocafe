@@ -66,35 +66,37 @@ const Descricao = () => {
   return (
     <section className="desc-section" id="sobre">
       <div className="main-content-wrapper verde background">
-        <div className="content-wrapper">
-          <h1>
-            Somos a AgroCafé, uma empresa que atua no agronegócio com mais de 15
-            anos de mercado.
-          </h1>
+        <div className="content">
+          <div className="content-wrapper">
+            <h1>
+              Somos a AgroCafé, uma empresa que atua no agronegócio com mais de
+              15 anos de mercado.
+            </h1>
 
-          <img src={Gotinhas} alt="gotinhas agrocafe" />
-        </div>
-        <div className="content-wrapper justify">
-          <p>
-            Oferecemos inovadores sistemas de irrigação, sem a necessidade de
-            expandir a sua propriedade.
-          </p>
+            <img src={Gotinhas} alt="gotinhas agrocafe" />
+          </div>
+          <div className="content-wrapper justify">
+            <p>
+              Oferecemos inovadores sistemas de irrigação, sem a necessidade de
+              expandir a sua propriedade.
+            </p>
 
-          <p>
-            Assim, você pode atingir altas produtividades, aumentar a qualidade
-            do seu cultivo e ainda reduzir, significativamente, o uso de insumos
-            e de mão de obra.
-          </p>
-          <p>
-            Uma de nossas unidades está, estrategicamente, localizada em
-            Patrocínio/MG. O município é o maior produtor de café do Brasil.
-            Essa unidade é revendedora autorizada da Netafim, empresa referência
-            internacional em irrigação.
-          </p>
-          <p>
-            Além da cultura do café, atendemos também lavouras brancas e
-            pastagens
-          </p>
+            <p>
+              Assim, você pode atingir altas produtividades, aumentar a
+              qualidade do seu cultivo e ainda reduzir, significativamente, o
+              uso de insumos e de mão de obra.
+            </p>
+            <p>
+              Uma de nossas unidades está, estrategicamente, localizada em
+              Patrocínio/MG. O município é o maior produtor de café do Brasil.
+              Essa unidade é revendedora autorizada da Netafim, empresa
+              referência internacional em irrigação.
+            </p>
+            <p>
+              Além da cultura do café, atendemos também lavouras brancas e
+              pastagens.
+            </p>
+          </div>
         </div>
       </div>
 

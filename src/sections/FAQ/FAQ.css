@@ -1,18 +1,18 @@
 section.faq {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    background-color: rgb(255, 250, 244);
+  background-color: rgb(255, 250, 244);
 
-    width: 100%;
+  width: 100%;
+  margin-bottom: 10.2vh;
 }
 
 div.perguntas-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    width: 80vw;
+  width: 80vw;
 
-    margin-block: 6vh;
-    margin-inline: auto;
+  margin-inline: auto;
 }

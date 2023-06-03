@@ -2,7 +2,7 @@ div.contact-fake-button {
   padding: 0.5vh 3vh;
   width: fit-content;
 
-  margin-block: -3vh 1vh;
+  margin-block: -5.5vh 1vh;
   margin-inline: auto;
 
   border-radius: 10vh;
@@ -23,7 +23,8 @@ div.contact-wrapper {
   justify-content: space-around;
 
   width: 100%;
-  margin-block: 4vh;
+  margin-top: 1.5vh;
+  margin-bottom: 6.5vh;
 }
 
 div.local-wrapper {

@@ -1,6 +1,7 @@
 #containerProjects {
   width: 100%;
-  margin: 4rem auto;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
   position: relative;
   overflow: hidden;
   display: grid;

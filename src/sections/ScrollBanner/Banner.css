@@ -9,6 +9,10 @@ section.banner-section {
 
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  margin-top: 5vh;
+  margin-bottom: 2vh;
 }
 
 section.banner-section img {

@@ -16,7 +16,14 @@ const Footer = () => {
           src={LogoOrgulhasamenteIrrigante}
           alt="logo orgulhosamente irrigado"
         />
-        <img id="btnCima" src={FooterCima} alt="" />
+        <img
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+          id="btnCima"
+          src={FooterCima}
+          alt=""
+        />
       </div>
 
       <div id="containerConteudo">
@@ -24,7 +31,7 @@ const Footer = () => {
         <img id="fio" src={FioEntreLogosRodape} alt="" />
         <span>
           Desenvolvido por{" "}
-          <a href="#">
+          <a href="https://agenciaportfolio.com.br/" target="_blank">
             {" "}
             <img
               id="portifolioAssinatura"
@@ -34,9 +41,11 @@ const Footer = () => {
           </a>
         </span>
       </div>
-      <div id="containerSerafim" className="verde background">
-        <img src={LogoNetafimRodape} alt="Assinatura Netafim" />
-      </div>
+      <a href={"https://www.netafim.com.br/"} target="_blank">
+        <div id="containerSerafim" className="verde background">
+          <img src={LogoNetafimRodape} alt="Assinatura Netafim" />
+        </div>
+      </a>
     </footer>
   );
 };

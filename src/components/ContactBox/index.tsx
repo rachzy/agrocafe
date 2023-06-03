@@ -1,22 +1,25 @@
-import React from 'react'
+import React from "react";
 import "./ContactBox.css";
 
 interface IProps {
-    icone: string;
-    children: string;
+  icone: string;
+  href?: string;
+  children: string;
 }
 
-const ContactBox: React.FC<IProps> = ({icone, children}) => {
+const ContactBox: React.FC<IProps> = ({ icone, children, href }) => {
   return (
-    <div className="contact-box verde background">
+    <a href={href} target="_blank">
+      <div className="contact-box verde background">
         <div className="logo-box">
-            <img src={icone} />
+          <img src={icone} />
         </div>
         <div className="text-box">
-        <p>{children}</p>
+          <p>{children}</p>
         </div>
-    </div>
-  )
-}
+      </div>
+    </a>
+  );
+};
 
-export default ContactBox
+export default ContactBox;

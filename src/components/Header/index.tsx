@@ -28,7 +28,7 @@ const DefaultSection: React.FC<IPropsSections> = ({ options }) => {
     return options.map((link, index) => {
       return (
         <>
-          {index > 0 && <img src={Gota} alt="gota verde" />}
+          {index > 0 && <img key={index} src={Gota} alt="gota verde" />}
           <li key={link.label}>
             <a className="menu-option" href={link.href}>
               {link.label}
@@ -52,9 +52,11 @@ const DefaultSection: React.FC<IPropsSections> = ({ options }) => {
             </nav>
           </div>
           <div className="wrapper-side">
-            <div className="logo-container verde background">
-              <img src={Netafim} alt="logo netafim" />
-            </div>
+            <a href={"https://www.netafim.com.br/"} target="_blank">
+              <div className="logo-container verde background">
+                <img src={Netafim} alt="logo netafim" />
+              </div>
+            </a>
           </div>
         </div>
       </div>

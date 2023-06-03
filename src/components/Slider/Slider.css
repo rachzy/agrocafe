@@ -82,7 +82,7 @@ div.slide img {
 div.slider div.buttons {
   display: flex;
 
-  width: 85vw;
+  width: 80vw;
   justify-content: space-between;
 
   position: absolute;

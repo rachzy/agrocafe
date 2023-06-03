@@ -5,10 +5,8 @@ div.passo-box {
   padding: 4vh;
   padding-bottom: 10vh;
 
-  margin-inline: 4vh;
+  width: 34vw;
   border-radius: 4vh;
-
-  flex: 1;
 }
 
 div.passo-box img {
@@ -25,5 +23,6 @@ div.passo-box h1 {
 @media screen and (max-width: 768px) {
   div.passo-box {
     margin-inline: 0;
+    width: 90%;
   }
 }

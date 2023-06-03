@@ -1,5 +1,5 @@
 section.expertise-section {
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 section.expertise-section div.expertise-passos-wrapper {
@@ -8,9 +8,9 @@ section.expertise-section div.expertise-passos-wrapper {
 
   flex-grow: 1;
 
-  justify-content: space-around;
+  justify-content: space-between;
 
-  margin-block: 4vh;
+  margin-block: 5vh;
   row-gap: 8vh;
 }
 

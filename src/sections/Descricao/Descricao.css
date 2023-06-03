@@ -1,8 +1,15 @@
 section.desc-section {
   display: flex;
-  flex-direction: column;
 
   width: 100vw;
+}
+
+section.desc-section div.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 87vw;
+  height: 100%;
 }
 
 /* MAIN-CONTENT-WRAPPER */
@@ -11,11 +18,20 @@ section.desc-section div.main-content-wrapper {
   display: flex;
   flex-direction: row;
 
-  padding-block: 15vh 35vh;
+  padding-block: 10vh 35vh;
 
   justify-content: center;
 
   height: 80vh;
+}
+
+section.desc-section div.main-content-wrapper div.content {
+  display: flex;
+  flex-direction: row;
+
+  width: 80vw;
+  height: 100%;
+  overflow: hidden;
 }
 
 /* CONTENT-WRAPPER */
@@ -24,14 +40,15 @@ section.desc-section div.content-wrapper {
   display: flex;
   flex-direction: column;
 
-  width: 40%;
+  width: 50%;
   min-height: 100%;
 }
 
 section.desc-section div.content-wrapper.justify {
-  width: 50%;
+  flex: 1;
   justify-content: space-between;
   padding-left: 4vh;
+  height: 100%;
 }
 
 section.desc-section div.content-wrapper img {
@@ -51,7 +68,7 @@ section.desc-section div.content-wrapper p {
   font-size: 3.5vmin;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 768px) {
   section.desc-section {
     flex-direction: column;
   }
@@ -60,18 +77,25 @@ section.desc-section div.content-wrapper p {
     flex-direction: column;
     height: fit-content;
     padding-block: 15vh 10vh;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.desc-section div.main-content-wrapper div.content {
+    flex-direction: column;
   }
 
   section.desc-section div.content-wrapper {
-    width: 90%;
+    width: 100%;
     height: fit-content;
 
     margin: auto;
   }
 
   section.desc-section div.content-wrapper.justify {
+    width: 100%;
     justify-content: center;
-    width: 90%;
     padding-left: 0;
     margin: auto;
     margin-block: 4vh;
@@ -95,7 +119,7 @@ section.desc-section div.content-wrapper p {
 /* CULTURAS-WRAPPER */
 
 div.culturas-wrapper {
-  width: 80%;
+  width: 80vw;
   margin: auto;
 
   border-radius: 4vh;
@@ -134,7 +158,7 @@ div.culturas-wrapper div.culturas-container {
 
 @media screen and (max-width: 920px) {
   div.culturas-wrapper {
-    width: 90%;
+    width: 80vw;
     margin: auto;
     margin-top: 5vh;
   }
@@ -150,5 +174,11 @@ div.culturas-wrapper div.culturas-container {
 
   div.culturas-wrapper p {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.culturas-wrapper {
+    width: 90vw;
   }
 }
