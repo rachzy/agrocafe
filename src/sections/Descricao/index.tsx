@@ -1,4 +1,3 @@
-import React from "react";
 import "./Descricao.css";
 
 import Gotinhas from "../../assets/imagens/demais-imagens/gotinhas.png";

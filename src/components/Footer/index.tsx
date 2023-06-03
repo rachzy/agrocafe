@@ -1,5 +1,5 @@
-import React from "react";
 import "./Footer.css";
+
 import LogoOrgulhasamenteIrrigante from "../../assets/imagens/logos/orgulhosamente-irrigante.png";
 import FooterCima from "../../assets/imagens/botoes/footer-cima.png";
 import LogoAgrocafeRodape from "../../assets/imagens/logos/logo-agrocafe-rodapé.png";

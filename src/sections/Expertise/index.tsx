@@ -1,4 +1,3 @@
-import React from "react";
 import "./Expertise.css";
 
 import LetreiroExpertise from "../../assets/imagens/expertise/palavra-expetise.png";

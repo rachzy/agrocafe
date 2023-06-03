@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./FAQ.css";
 
 import Titulo from "../../components/Titulo";

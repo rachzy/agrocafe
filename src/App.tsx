@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Descricao from "./sections/Descricao";

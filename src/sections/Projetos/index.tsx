@@ -1,4 +1,3 @@
-import React from "react";
 import "./Projetos.css";
 
 import Titulo from "../../components/Titulo";
