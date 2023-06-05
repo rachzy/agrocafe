@@ -71,6 +71,14 @@ header .mobile-menu img {
   width: 70%;
 }
 
+header .mobile-menu img.logo-netafim {
+  position: absolute;
+  bottom: 0;
+  width: 20vh;
+
+  margin-bottom: 5vh;
+}
+
 header .mobile-menu nav.options li {
   display: flex;
   flex-direction: column;
@@ -81,12 +89,16 @@ header .mobile-menu nav.options li {
   width: 80%;
   text-align: center;
 
-  background: orange;
+  background: white;
   padding: 1.5vh 1vh;
 
   border-radius: 1vh;
 
   margin-block: 1vh;
+}
+
+header .mobile-menu nav.options img {
+  width: 1vh;
 }
 
 header .mobile-menu ul.social-medias {

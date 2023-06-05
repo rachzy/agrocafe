@@ -7,7 +7,9 @@ import Hamburguer from "../Hamburguer";
 
 import Gota from "../../assets/imagens/demais-imagens/gota.png";
 import Logo from "../../assets/imagens/logos/logo-agrocafe-cabeçalho.png";
+import LogoMobile from "../../assets/imagens/logos/logo-agrocafe-mobile.png";
 import Netafim from "../../assets/imagens/logos/logo-netafim-cabeçalho.png";
+import NetafimMobile from "../../assets/imagens/logos/logo-netafim-mobile.png";
 
 interface IOptions {
   label: string;
@@ -80,13 +82,16 @@ const MobileSection: React.FC<IPropsSections> = ({ options }) => {
   }
 
   function renderOptions() {
-    return options.map((link) => {
+    return options.map((link, index) => {
       return (
+        <>
+        {index !== 0 && <img src={Gota} alt="gota" />}
         <li key={link.label} onClick={handleOptionClick}>
           <a className="verde label" href={link.href}>
             {link.label}
           </a>
         </li>
+        </>
       );
     });
   }
@@ -110,6 +115,7 @@ const MobileSection: React.FC<IPropsSections> = ({ options }) => {
           <nav className="options">
             <ul className="options-list">{renderOptions()}</ul>
           </nav>
+          <img className="logo-netafim" src={NetafimMobile} alt="logo netafim" />
         </div>
       </div>
     </div>
@@ -147,7 +153,7 @@ const Header = () => {
         <MobileSection options={options} />
       </header>
       <div className="fake-header">
-        <img src={Logo} alt="logo rede cabral" />
+        <img src={LogoMobile} alt="logo rede cabral" />
       </div>
     </>
   );
